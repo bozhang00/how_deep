@@ -1,3 +1,6 @@
+# How Deep Is Knowledge Tracing 
+source code for "how deep is knowledge tracing"
+
 # Deep Knowledge Tracing Implementation
 This repository contains our implementation of the [Deep Knowledge Tracing (DKT)](http://papers.nips.cc/paper/5654-deep-knowledge-tracing.pdf) model
 which we used in [our paper](https://www.cs.colorado.edu/~mozer/Research/Selected%20Publications/reprints/KhajahLindseyMozer2016.pdf).
