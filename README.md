@@ -1,5 +1,8 @@
 # How Deep Is Knowledge Tracing 
 source code for "how deep is knowledge tracing"
+一般主流使用 tensor flow 作为后端，但是这个repo 使用的是theano， 导致每次使用这个repo 都要去 keras 更改一下后端。   
+同时 需要将keras 降低版本，降低到 1.2.2， 主流keras 已经不支持 TimeDistributedDense 这个模块。  
+
 
 # Deep Knowledge Tracing Implementation
 This repository contains our implementation of the [Deep Knowledge Tracing (DKT)](http://papers.nips.cc/paper/5654-deep-knowledge-tracing.pdf) model
@@ -14,11 +17,11 @@ we implemented our own LSTM variant of DKT. This repository contains our impleme
 
 
 # Requirements
- - Python
- - Theano
- - Keras
- - numpy
- - scikit-learn
+ - Python  
+ - Theano  
+ - Keras  
+ - numpy  
+ - scikit-learn  
 
 # Data Format
 The model is contained within one script. It expects two files: a dataset file and
